@@ -1,0 +1,214 @@
+{
+    "timestamp": "2025-01-14 10:30:00",
+    "user_id": "U123456",
+    "username": "example_user",
+    "ip_address": "192.168.1.100",
+    "login_method": "password",
+    "device_type": "desktop",
+    "browser": "Chrome 115.0.5790.171",
+    "os": "Windows 11",
+    "level": "DEBUG",
+    "message": "Fetching user data from database",
+    "thread": "Thread-789",
+    "operation_id": "OP654321987",
+    "performance_test_status": "False",
+    "response_time_average": 70,
+    "throughput": 9000,
+    "unknown_metric": 123,
+    "resource_utilization_cpu": 0.5,
+    "resource_utilization_memory": 0.6,
+    "resource_utilization_gpu": 0.54,
+    "stability": 0.68,
+    "error_code": "ERR_00123",
+    "error_message": "Database connection timeout",
+    "user_location": "Shanghai, China",
+    "session_duration": 1200,
+    "login_time": "2025-01-14 10:15:00",
+    "logout_time": "2025-01-14 10:30:00",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36",
+    "api_call_count": 35,
+    "api_call_rate": 2.5,
+    "database_query_count": 8,
+    "response_status_code": 200,
+    "network_bandwidth": 150,
+    "disk_space_used": 5120,
+    "file_count": 45,
+    "service_version": "v1.2.4",
+    "deployment_environment": "production",
+    "server_location": "US-East-1",
+    "last_activity_time": "2025-01-14 10:29:45",
+    "service_name": "user_management_service",
+    "load_balancer_id": "LB12345",
+    "request_id": "REQ987654",
+    "is_maintenance_mode": "False",
+    "db_connection_pool_size": 15,
+    "db_connection_time": 250,
+    "cpu_temperature": 55,
+    "memory_usage_percent": 78,
+    "gpu_temperature": 45,
+    "gpu_memory_usage": 2.5,
+    "disk_read_speed": 120,
+    "disk_write_speed": 95,
+    "log_file_size": 5.2,
+    "user_activity": "viewing_profile",
+    "error_type": "timeout",
+    "api_endpoint": "/user/data",
+    "api_response_time": 120,
+    "debug_info": {
+        "sql_query": "SELECT * FROM users WHERE user_id = 'U123456'",
+        "query_time": 150,
+        "cache_hit": "True",
+        "cache_size": 512
+    },
+    "error_traceback": [
+        {
+            "file": "database_connector.py",
+            "line": 245,
+            "function": "connect_to_db",
+            "code_snippet": "conn = psycopg2.connect(database_config)"
+        },
+        {
+            "file": "user_data_service.py",
+            "line": 102,
+            "function": "fetch_user_data",
+            "code_snippet": "user_data = db.query('SELECT * FROM users WHERE user_id = %s', (user_id,))"
+        }
+    ],
+    "server_uptime": 86400,
+    "user_role": "admin",
+    "request_method": "GET",
+    "request_size": 2048,
+    "response_size": 512,
+    "error_count": 2,
+    "latency": 100,
+    "risk_types": "aaa",
+    "data_collection_status": "True",  
+    "rule_matching_result": "True" , 
+    "risk_assessment_result": "True",  
+    "high_risk_issue": "True",  
+    "medium_risk_issue": "True",  
+    "low_risk_issue": "True",  
+    "throughput_peak": 15000,
+    "user_activity_duration": 300,
+    "session_start_time": "2025-01-14 10:00:00",
+    "session_end_time": "2025-01-14 10:30:00",
+    "authentication_status": "success",
+    "retry_count": 0,
+    "feature_flags": ["feature_x", "feature_y"],
+    "service_health": "healthy",
+    "deployment_status": "deployed",
+    "load_balancer_health": "optimal",
+    "cache_eviction_count": 5,
+    "user_preferences": {
+        "theme": "dark",
+        "notifications_enabled": "true",
+        "language": "en"
+    },
+    "api_usage_summary": {
+        "total_requests": 2000,
+        "successful_requests": 1980,
+        "failed_requests": 20,
+        "error_rate": 1.0
+    },
+    "user_feedback": {
+        "rating": 4,
+        "comments": "Good experience but could improve response time."
+    },
+    "server_errors": {
+        "timeout_errors": 5,
+        "connection_errors": 2,
+        "disk_space_errors": 0
+    },
+    "network_errors": {
+        "packet_loss": 0.02,
+        "latency_spike": 0.5,
+        "network_congestion": "false"
+    },
+    "maintenance_schedule": {
+        "next_maintenance": "2025-01-20 02:00:00",
+        "maintenance_duration": 120,
+        "maintenance_status": "scheduled"
+    },
+    "security_events": {
+        "suspected_intrusion": "false",
+        "malicious_activity_detected": "false",
+        "last_security_scan": "2025-01-12"
+    },
+    "user_interaction": {
+        "clicks": 45,
+        "scrolls": 12,
+        "mouse_moves": 150,
+        "time_on_page": 60
+    },
+    "integration_status": {
+        "api_integration": "successful",
+        "third_party_service_status": "operational"
+    },
+    "data_encryption": {
+        "encryption_algorithm": "AES-256",
+        "encryption_status": "enabled",
+        "encryption_key_valid": "true"
+    },
+    "response_time_distribution": {
+        "min": 50,
+        "max": 200,
+        "mean": 120,
+        "std_dev": 25
+    },
+    "db_connection_metrics": {
+        "active_connections": 8,
+        "max_connections": 50,
+        "connection_failure_rate": 0.02,
+        "query_response_time": 90,
+        "db_query_errors": 1
+    },
+    "api_error_metrics": {
+        "timeout_errors": 3,
+        "server_errors": 2,
+        "invalid_request_errors": 1,
+        "unauthorized_errors": 0
+    },
+    "network_throughput": {
+        "incoming_bandwidth": 120,
+        "outgoing_bandwidth": 100,
+        "packet_loss_rate": 0.01,
+        "ping_latency": 30
+    },
+    "security_scan_results": {
+        "scan_type": "full",
+        "scan_status": "completed",
+        "vulnerabilities_found": 0,
+        "last_scan_time": "2025-01-12 09:00:00"
+    },
+    "application_metrics": {
+        "cpu_usage": 70,
+        "memory_usage": 80,
+        "gpu_usage": 60,
+        "disk_usage": 50
+    },
+    "load_balancer_metrics": {
+        "requests_per_second": 250,
+        "active_sessions": 120,
+        "session_timeout_rate": 0.02,
+        "server_health": "optimal"
+    },
+    "system_health": {
+        "overall_health": "good",
+        "critical_warnings": 0,
+        "major_incidents": 0,
+        "minor_incidents": 2
+    },
+    "application_version": {
+        "version_number": "v2.3.5",
+        "deployment_date": "2025-01-13",
+        "release_notes": "Bug fixes and performance improvements"
+    },
+    "user_activity_log": {
+        "last_login": "2025-01-14 09:00:00",
+        "last_action": "viewing_account_settings",
+        "last_logout": "2025-01-14 10:30:00",
+        "total_actions_today": 12,
+        "total_logins_today": 3
+    }
+    
+}
